@@ -15,7 +15,7 @@ import com.tp.myappworkmanager.utils.UploadWorker
 import com.tp.myappworkmanager.utils.UploadWorker.Companion.KEY_WORKER
 import java.util.concurrent.TimeUnit
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActiv() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
